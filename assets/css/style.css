@@ -3,54 +3,56 @@
     padding: 0;
     margin: 0;
 }
-/* BODY SECTION */
+/* Body section */
+
+/* Sets the background color of the body */
 body {
     background-color: #d9dcd6;
 }
-/* after editing the <head> element in HTML remove the dot before header in CSS */
-/* HEADER SECTION */
+/* after editing the <head> element in HTML remove the dot before header */
+/* Sets the padding, the background color, the color and the font-family of the header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/* Styles the headline element so that it is displayed as an in-line block element and sets the font-size*/
+h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* Headline - Sets the color of the span element within the headline element */
+.seo {
     color: #d9dcd6;
 }
-
-.header div {
+/* Sets the navigation section position, padding-top, margin-right. Sets the font-family and font-size */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
+/* Sets the unorded list style to none so that bullet point are not displayed */
+ul {
     list-style-type: none;
 }
-
-.header div ul li {
+/* Styles the unorded list and list items so that they're displayed as an in-line block element and sets the margin-left */
+ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Sets the anchor elements color and text-decoration (no underline) */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Sets the paragraphs font-size */
 p {
     font-size: 16px;
 }
-/* Do not need to make any changes to hero image line 54-59 */
+/* Specifies the background image source. Styles the background-size and background-position. It also sets the image height and width */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,7 +77,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/* BENEFITS SECTION - DISPLAYED IN BLOCK, RIGHT */
+/* Sets the Benefits section margin-right, padding, height and weight. Floats the element to the right side of its container and clears any floating elements on both sides of the element. It also sets the font-family and background-color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,7 +88,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* group benefit-lead + benefit-brand + benefit cost */
+/* Sets Benefit sub-sections margin-bottom and color */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,7 +103,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Sets Benefit sub-sections Headings margin-bottom and and text-align to center */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,7 +118,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Styles the images in the Benefit sub-sections so that they're displayed in block and sets the margin and max-width */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,7 +136,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Sets the Content sub-sections margin-bottom, padding and height. It also sets the font-family, background-color and color for each of them */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,7 +163,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Sets the max-height of the images included in the sub-sections of the Content section */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,7 +175,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Sets the margin-bottom and font-size of the Heading included in the sub-sections of the Content section*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
