@@ -9,24 +9,27 @@
 body {
     background-color: #d9dcd6;
 }
-/* after editing the <head> element in HTML remove the dot before header */
+
 /* Sets the padding, the background color, the color and the font-family of the header section */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /* Styles the headline element so that it is displayed as an in-line block element and sets the font-size*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Headline - Sets the color of the span element within the headline element */
+
+/* Sets the color of the span element within the headline element */
 .seo {
     color: #d9dcd6;
 }
-/* Sets the navigation section position, padding-top, margin-right. Sets the font-family and font-size */
+
+/* Sets the navigation section padding-top, margin-right and floats the element to the right side of its container. Sets the font-family and font-size */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,25 +37,30 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* Sets the unorded list style to none so that bullet point are not displayed */
+
+/* Sets the unordered list style to none so that bullet points are not displayed */
 ul {
     list-style-type: none;
 }
-/* Styles the unorded list and list items so that they're displayed as an in-line block element and sets the margin-left */
+
+/* Styles the unordered list items so that they're displayed as in-line block elements and sets the margin-left */
 ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
 /* Sets the anchor elements color and text-decoration (no underline) */
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 /* Sets the paragraphs font-size */
 p {
     font-size: 16px;
 }
-/* Specifies the background image source. Styles the background-size and background-position. It also sets the image height and width */
+
+/* Specifies the background image source. Styles the background-size as cover and sets the background-position so that the image is displayed in the center. It also sets the image height and width */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,22 +69,29 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
+/* Floats the element to the left side of its container ans sets the margin-right */
+.seo-image {
     float: left;
     margin-right: 25px;
 }
-
-.float-right {
+/* Floats the element to the left side of its container ans sets the margin-right */
+.smm-image {
+    float: left;
+    margin-right: 25px;
+}
+/* Floats the element to the right side of its container ans sets the margin-left */
+.orm-image {
     float: right;
     margin-left: 25px;
 }
 
+/* Styles the Content section so that it is displayed as an in-line block element. Also, it sets the width and margin-left of the section */ 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 /* Sets the Benefits section margin-right, padding, height and weight. Floats the element to the right side of its container and clears any floating elements on both sides of the element. It also sets the font-family and background-color */
 .benefits {
     margin-right: 20px;
@@ -88,6 +103,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /* Sets Benefit sub-sections margin-bottom and color */
 .benefit-lead {
     margin-bottom: 32px;
@@ -103,6 +119,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 /* Sets Benefit sub-sections Headings margin-bottom and and text-align to center */
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -118,6 +135,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
 /* Styles the images in the Benefit sub-sections so that they're displayed in block and sets the margin and max-width */
 .benefit-lead img {
     display: block;
@@ -136,6 +154,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
 /* Sets the Content sub-sections margin-bottom, padding and height. It also sets the font-family, background-color and color for each of them */
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -163,6 +182,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 /* Sets the max-height of the images included in the sub-sections of the Content section */
 .search-engine-optimization img {
     max-height: 200px;
@@ -175,7 +195,8 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-/* Sets the margin-bottom and font-size of the Heading included in the sub-sections of the Content section*/
+
+/* Sets the margin-bottom and font-size of the Headings included in the sub-sections of the Content section */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -191,15 +212,15 @@ p {
     font-size: 36px;
 }
 
-/* FOOTER SECTION */
-/* Change the footer tags here after editing the tag in HTML*/
-.footer {
+/* Sets footer padding, and clears any floating elements on both sides of the element. Also, sets the font-family and positions text in the center of the section */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* Sets the font-size of the Heading in the footer section */
+footer h2 {
     font-size: 20px;
 }
