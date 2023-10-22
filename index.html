@@ -8,15 +8,16 @@
     <title>website</title>
 </head>
 
+<!-- Body -->
 <body>
-    
-    <!-- Replace div with header element-->
-    <div class="header">
+
+    <!-- Header -->
+    <header>
         <!-- Heading --> 
         <h1>Hori<span class="seo">seo</span>n</h1>
          <!-- Navigation section --> 
         <nav>
-            <!-- Unorded list to group links in navigation section --> 
+            <!-- Unordered list to group links in navigation section --> 
             <ul>
                 <!-- Links redirect you to other sections of the page --> 
                 <li>
@@ -30,9 +31,9 @@
                 </li>
             </ul>
         </nav>
-    </div>
+    </header>
 
-    <!-- Section Hero contains background image - img source specified in CSS file --> 
+    <!-- Section Hero contains a background image - image source specified in CSS file --> 
     <section class="hero"></section>
 
     <!-- Content section -->
@@ -40,7 +41,7 @@
          <!-- Section for Search Engine Optimization --> 
         <section id="search-engine-optimization" class="search-engine-optimization">
             <!-- Image in SEO section (Add alt tag to img) --> 
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <img src="./assets/images/search-engine-optimization.jpg" class="seo-image" />
             <!-- Heading of SEO section -->
             <h2>Search Engine Optimization</h2>
             <!-- Paragraph in SEO section --> 
@@ -48,11 +49,10 @@
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
-
         <!-- Section for Online Reputation Management --> 
         <section id="online-reputation-management" class="online-reputation-management">
             <!-- Image in ORM section (Add alt tag to img) --> 
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" class="orm-image" />
             <!-- Heading of ORM section -->
             <h2>Online Reputation Management</h2>
             <!-- Paragraph in ORM section -->
@@ -63,7 +63,7 @@
         <!-- Section for Social Media Marketing --> 
         <section id="social-media-marketing" class="social-media-marketing">
             <!-- Image in SMM section (Add alt tag to img) -->
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" class="smm-image" />
             <!-- Heading of SMM section -->
             <h2>Social Media Marketing</h2>
             <!-- Paragraph in SMM section -->
@@ -109,13 +109,16 @@
             </p>
         </section>
     </section>
-     <!-- Add a footer tag instead of div class--> 
-    <div class="footer">
+
+     <!-- Footer --> 
+    <footer>
+        <!-- Heading of footer section -->
         <h2>Made with ❤️️ by Horiseon</h2>
+        <!-- Paragraph in footer section inclduing the escape character '&copy' to add the copyright symbol before the text -->
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
