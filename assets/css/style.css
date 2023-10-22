@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
 }
-/* Body section */
 
 /* Sets the background color of the body */
 body {
@@ -49,7 +48,7 @@ ul li {
     margin-left: 25px;
 }
 
-/* Sets the anchor elements color and text-decoration (no underline) */
+/* Sets the anchor elements color and removes the text-decoration (no underline) */
 a {
     color: #ffffff;
     text-decoration: none;
