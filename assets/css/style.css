@@ -1,3 +1,4 @@
+/* Sets the box-sizing, the padding and the margin of the entire page */
 * {
     box-sizing: border-box;
     padding: 0;
