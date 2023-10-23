@@ -12,11 +12,11 @@ N/A
 
 ## Usage
 
-To use this page, you can use the links at the top (on the right hand side), to be redirected to the relative section of the page where you can review the content related the selected topic. See an example below:
+To use this page, you can use the links at the top (on the right hand side), to be redirected to the relative section of the page where you can review the content related to the selected topic. See an example below:
 
 ![alt Search Engine Optimisation](assets/images/Horiseon%20-%20SEO.gif)
 
-You can review the benefits of using the services promoted, reviewing the content displayed on the right hand side. See below:
+More content can be found displayed on the right hand side of the page. See below:
 
 ![alt Benefits](assets/images/Horiseon%20-%20Benefits.png)
 
