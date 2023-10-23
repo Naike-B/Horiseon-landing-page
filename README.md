@@ -12,7 +12,7 @@ N/A
 
 ## Usage
 
-To use this page, you can use the links at the top (on the right hand side), to be redirected to the relative section of the page where you can review the content related to the selected topic. See an example below:
+To use this page, navigate to [Horiseon landing page](https://naike-b.github.io/Horiseon-landing-page/) .You can use the links at the top (on the right hand side), to be redirected to the relative section of the page where you can review the content related to the selected topic. See an example below:
 
 ![alt Search Engine Optimisation](assets/images/Horiseon%20-%20SEO.gif)
 
