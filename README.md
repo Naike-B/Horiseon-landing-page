@@ -2,7 +2,7 @@
 
 ## Description
 
-This landing page was created for visitors who are searching for services to manage and improve their business' online presence. The scope it's to provide the visitors with information relevant to the services offered by Horiseon and to highlight the benifts of using such services. In particular, the page includes information about Search engine optimization, Online reputation management and Social media marketing. 
+This landing page was created for visitors who are searching for services to manage and improve their business' online presence. The scope is to provide the visitors with information relevant to the services offered by Horiseon and to highlight the benifts of using such services. In particular, the page includes information about Search engine optimization, Online reputation management and Social media marketing. 
 
 Working on this project, I learned more about refactoring code and in particular how to ensure that a website meets accessibility standards.
 
